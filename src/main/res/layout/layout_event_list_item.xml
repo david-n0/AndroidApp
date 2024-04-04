@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_item_data"
+    android:layout_width="match_parent"
+    android:layout_height="190dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="5dp"
+    android:background="@color/drugaBoja"
+    app:layout_constraintCircleRadius="28dp"
+    >
+
+    <TextView
+        android:id="@+id/eventNameVH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/descriptionVH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:textColor="#D8000000"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/eventNameVH"
+        app:layout_constraintTop_toBottomOf="@+id/eventNameVH" />
+
+    <TextView
+        android:id="@+id/dateVH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textColor="#D8000000"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/eventNameVH"
+        app:layout_constraintTop_toBottomOf="@+id/descriptionVH" />
+
+    <TextView
+        android:id="@+id/timeVH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textColor="#D8000000"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/eventNameVH"
+        app:layout_constraintTop_toBottomOf="@+id/dateVH" />
+
+    <TextView
+        android:id="@+id/url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textColor="#D8000000"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toStartOf="@+id/eventNameVH"
+        app:layout_constraintTop_toBottomOf="@+id/timeVH" />
+
+    <Button
+
+        android:id="@+id/btnDeleteVH"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="@color/petaBoja"
+        app:cornerRadius="28dp"
+        app:icon="@android:drawable/ic_delete"
+        app:iconPadding="0dp"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintCircleRadius="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+
+        android:id="@+id/btnShareVH"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        app:cornerRadius="28dp"
+        app:icon="?attr/actionModeShareDrawable"
+        app:iconPadding="0dp"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintCircleRadius="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnDeleteVH" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

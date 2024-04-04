@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Projekat Jun - David Nikolic</string>
+    <string name="showEvents">Pokazi Dogadjaje</string>
+    <string name="addEvent">Dodaj Dogadjaj</string>
+    <string name="back">Nazad</string>
+    <string name="enterCity">Unesi Grad</string>
+    <string name="eventName">Ime Dogadjaja</string>
+    <string name="description">Opis</string>
+    <string name="checkTimeForLocation">Proveri vreme za lokaciju</string>
+    <string name="setDate">Postavi Datum</string>
+    <string name="setTime">Postavi Vreme</string>
+    <string name="saveEvent">Sacuvaj Dogadjaj</string>
+    <string name="events">Dogadjaji</string>
+    <string name="fieldsEmptyException">Popuni sva polja! Neka od njih su prazna.</string>
+    <string name="dateTimefieldsEmptyException">Popuni polja za datum i vreme! Ne smeju biti prazna.</string>
+</resources>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Projekat Jun - David Nikolic</string>
+    <string name="showEvents">Show Events</string>
+    <string name="addEvent">Add Event</string>
+    <string name="back">Back</string>
+    <string name="enterCity">Enter City</string>
+    <string name="eventName">Event Name</string>
+    <string name="description">Description</string>
+    <string name="checkTimeForLocation">Check time for location</string>
+    <string name="setDate">Set Date</string>
+    <string name="setTime">Set Time</string>
+    <string name="url" translatable="false">url</string>
+    <string name="saveEvent">Save Event</string>
+    <string name="events">Events</string>
+    <string name="fieldsEmptyException">Fill all fields! Some of them are empty.</string>
+    <string name="dateTimefieldsEmptyException">Fill time and date fields! They can not be empty.</string>
+
+    <string-array name="priority_array">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+
+    <string-array name="cities">
+        <item>Amsterdam</item>
+        <item>Athens</item>
+        <item>Belgrade</item>
+        <item>Budapest</item>
+    </string-array>
+
+
+</resources>
